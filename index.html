@@ -1,73 +1,87 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style></style>
-  </head>
-  <body class="bg-white text-gray-900 font-sans">
-    <!-- Hero Section -->
-    <section
-      class="min-h-screen flex flex-col justify-center items-center bg-gray-200 px-4 text-center"
-    >
-      <h1 class="text-4xl sm:text-6xl font-bold mb-4">Hi, I'm Jake</h1>
-      <p class="text-lg sm:text-2xl text-gray-600 mb-6">Full-Stack Developer</p>
-      <a
-        href="#projects"
-        class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition"
-      >
-        View Projects
-      </a>
-    </section>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Portfolio</title>
+        <link
+            href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style></style>
+    </head>
+    <body class="bg-white text-gray-900 font-sans">
+        <!-- Hero Section -->
+        <section
+            class="min-h-screen flex flex-col justify-center items-center bg-gray-200 px-4 text-center"
+        >
+            <h1 class="text-4xl sm:text-6xl font-bold mb-4">Hi, I'm Jake</h1>
+            <p class="text-lg sm:text-2xl text-gray-600 mb-6">
+                Full-Stack Developer
+            </p>
+            <a
+                href="#projects"
+                class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition"
+            >
+                View Projects
+            </a>
+        </section>
 
-    <!-- About Section -->
-    <section id="about" class="py-16 px-6 max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-semibold mb-4">About Me</h2>
-      <p class="text-gray-700 leading-relaxed">
-        I’m a self-taught developer with a passion for clean UI and fast
-        websites. I build things with HTML, Tailwind, and sometimes Vue.
-      </p>
-    </section>
+        <!-- About Section -->
+        <section id="about" class="py-16 px-6 max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+            <p class="text-gray-700 leading-relaxed">
+                I’m a self-taught developer with a passion for clean UI and fast
+                websites. I build things with HTML, Tailwind, and sometimes Vue.
+            </p>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="bg-gray-50 py-16 px-6">
-      <h2 class="text-3xl font-semibold text-center mb-10">Projects</h2>
-      <div class="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto">
-        <!-- Project Card -->
-        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-          <div class="w-full h-40 rounded-lg overflow-hidden shadow-lg">
-            <img
-              src="./work-in-progress.png"
-              alt="Project 1"
-              class="w-full h-full object-contain py-3"
-            />
-          </div>
-          <h3 class="text-xl font-bold mb-2">Project 1</h3>
-          <p class="text-gray-600 mb-2">Coming soon..</p>
-          <a href="#" class="text-blue-600 hover:underline" aria-disabled=""
-            >View Live</a
-          >
-        </div>
-        <!-- Add more cards -->
-      </div>
-    </section>
+        <!-- Projects Section -->
+        <section id="projects" class="bg-gray-50 py-16 px-6">
+            <h2 class="text-3xl font-semibold text-center mb-10">Projects</h2>
+            <div class="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto">
+                <!-- Project Card -->
+                <div
+                    class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition"
+                >
+                    <div
+                        class="w-full h-40 rounded-lg overflow-hidden shadow-lg"
+                    >
+                        <img
+                            src="./work-in-progress.png"
+                            alt="Project 1"
+                            class="w-full h-full object-contain py-3"
+                        />
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Project 1</h3>
+                    <p class="text-gray-600 mb-2">Coming soon..</p>
+                    <a
+                        href="#"
+                        class="text-blue-600 hover:underline"
+                        aria-disabled=""
+                        >View Live</a
+                    >
+                </div>
+                <!-- Add more cards -->
+            </div>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-16 px-6 text-center">
-      <h2 class="text-3xl font-semibold mb-4">Get In Touch</h2>
-      <p class="text-gray-700 mb-6">You can reach me at jakeooi@email.com</p>
-      <div class="flex justify-center space-x-4">
-        <a href="#" class="text-gray-600 hover:text-black">LinkedIn</a>
-        <a href="#" class="text-gray-600 hover:text-black">GitHub</a>
-      </div>
-    </section>
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 px-6 text-center">
+            <h2 class="text-3xl font-semibold mb-4">Get In Touch</h2>
+            <p class="text-gray-700 mb-6">
+                You can reach me at jakeooi@email.com
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#" class="text-gray-600 hover:text-black">LinkedIn</a>
+                <a href="#" class="text-gray-600 hover:text-black">GitHub</a>
+            </div>
+        </section>
 
-    <footer class="text-center text-sm text-gray-500 py-6">
-      © 2025 Jake Ooi. All rights reserved.
-    </footer>
-  </body>
+        <footer class="text-center text-sm text-gray-500 py-6">
+            © 2025 Jake Ooi. All rights reserved.
+        </footer>
+    </body>
 </html>
